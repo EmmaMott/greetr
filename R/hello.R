@@ -4,7 +4,6 @@
 #' @examples: 
 #' hello("Emma")
 #' # [1] "Hello Emma!"
-#' 
 hello <-
 function(x) {
     stringr::str_c("Hello ", x, "!")
